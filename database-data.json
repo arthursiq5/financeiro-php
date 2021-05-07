@@ -1,0 +1,6 @@
+{
+    "database-name": "financeiro_php8",
+    "user": "root",
+    "password": "root",
+    "character-set": "utf8mb4"
+}

@@ -1,0 +1,8 @@
+CREATE DATABASE usuarios(
+    id INT UNSIGNED NOT NULL AUTO INCREMENT,
+    nome VARCHAR(50) NOT NULL,
+    email VARCHAR(50) NOT NULL,
+    senha VARCHAR(25) NOT NULL,
+    nivel VARCHAR(20) NOT NULL,
+    PRIMARY KEY (id)
+);

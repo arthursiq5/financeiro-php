@@ -5,7 +5,7 @@ $url_sistema = 'http://localhost:8888/';
 $email_administrador = 'arthur.onehost@gmail.com';
 
 // DATABASE
-$servidor = '';
-$usuario = '';
-$senha = '';
-$banco = '';
+$servidor = 'localhost';
+$usuario = 'root';
+$senha = 'root';
+$banco = 'financeiro_php8';

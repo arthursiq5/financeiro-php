@@ -22,8 +22,8 @@
     
             <!-- Login Form -->
             <form>
-                <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
-                <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
+                <input type="email" id="login" class="fadeIn second" name="login" placeholder="login" required autofocus>
+                <input type="password" id="password" class="fadeIn third" name="login" placeholder="password" required>
                 <button class="btn btn-primary btn-block fourth fadeIn" type="submit">
                     Entrar
                 </button>

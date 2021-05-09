@@ -24,8 +24,8 @@
     
             <!-- Login Form -->
             <form method="post" action="autenticar.php">
-                <input type="email" id="login" class="fadeIn second" name="login" placeholder="login" required autofocus>
-                <input type="password" id="password" class="fadeIn third" name="login" placeholder="password" required>
+                <input type="email" id="login" class="fadeIn second" name="login" placeholder="Email" required autofocus>
+                <input type="password" id="password" class="fadeIn third" name="login" placeholder="Senha" required>
                 <button class="btn btn-primary btn-block fourth fadeIn" type="submit">
                     Entrar
                 </button>

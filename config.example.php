@@ -2,7 +2,7 @@
 
 $nome_sistema = 'Financeiro';
 $url_sistema = 'http://localhost:8888/';
-$email_administrador = 'arthur.onehost@gmail.com';
+$email_administrador = 'exemplo@gmail.com';
 
 // DATABASE
 $servidor = 'localhost';

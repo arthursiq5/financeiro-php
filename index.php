@@ -1,4 +1,19 @@
-<?php require_once('./conexao.php'); ?>
+<?php
+require_once('./conexao.php');
+
+$query = $pdo->query("SELECT * FROM usuarios WHERE nivel='ADMINISTRADOR'");
+$res = $query->fetchAll(PDO::FETCH_ASSOC);
+$total_registros = @count($res);
+
+if ($total_registros == 0) {
+    $pdo->query("INSERT INTO usuarios 
+        SET nome='$nome_admin', 
+            email='$email_administrador', 
+            senha='123', 
+            nivel='Administrador'"
+    );
+}
+?>
 
 <!DOCTYPE html>
 <html lang="en">
